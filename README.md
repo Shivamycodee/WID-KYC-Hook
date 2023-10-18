@@ -1,66 +1,23 @@
-## Foundry
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+<h1>WID-KYC-Hook</h1>
 
-Foundry consists of:
+<p>This Foundry project contains a hook contract for Uniswap v4, specializing in user verification. Users need to be registered on the World ID of World Coin to be able to swap.</p>
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+<h2>Clone the Project</h2>
+<pre>
+<code>
+git clone https://github.com/Shivamycodee/WID-KYC-Hook
+</code>
+</pre>
 
-## Documentation
+<h2>Run the Project</h2>
+<pre>
+<code>
+forge build
+</code>
+</pre>
 
-https://book.getfoundry.sh/
+<h2>WorldIDRouterImplV1 Mumbai Network Details</h2>
+<p>Contract Address: <code>0x719683F13Eeea7D84fCBa5d7d17Bf82e03E3d260</code></p>
+<p>Group ID: <code>1</code></p>
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
