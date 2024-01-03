@@ -21,3 +21,7 @@ forge build
 <p>Contract Address: <code>0x719683F13Eeea7D84fCBa5d7d17Bf82e03E3d260</code></p>
 <p>Group ID: <code>1</code></p>
 
+<h2>My Uniswap Hook was added in offical doc of uniswap hooks example</h2>
+<code>
+https://github.com/hyperoracle/awesome-uniswap-hooks
+</code>
